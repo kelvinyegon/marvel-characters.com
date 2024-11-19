@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+   color: rgb(252, 218, 0);
+   cursor: pointer;
+}
+h3{
+    text-align: center;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 25%;
+    border-radius: 150px;
+    background-color: black;
+}
+card, .avengers-btns {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: progress;
+}
+body{
+    background-color: black;
+}
+p{
+    color: aliceblue;
+}
+.cards-information {
+    display: flex;
+    gap: 10px;
+    
+    .avengers-btns {
+        background-color: chartreuse;
+        color: rgb(18, 16, 16);
+        border: none;
+        cursor: pointer;
+      }
+      .hover-img {
+        width: 300px;
+        height: auto;
+        overflow: hidden;
+        border-radius: 10px;
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+      
